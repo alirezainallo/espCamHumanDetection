@@ -10,6 +10,10 @@
 #include "driver/rtc_io.h"
 #include <EEPROM.h> 
 
+#include <tflm_esp32.h>
+#include <EloquentTinyML.h>
+#include <EloquentPersonDetector.h>
+
 // define the number of bytes you want to access
 #define EEPROM_SIZE 1
 
