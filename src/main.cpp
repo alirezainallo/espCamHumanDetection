@@ -100,7 +100,6 @@ void setup() {
   // Take Picture with Camera
   for(uint8_t i = 0; i < 20; i++){
     fb = esp_camera_fb_get();
-    delay(1);
     esp_camera_fb_return(fb);
   }
   fb = esp_camera_fb_get();
